@@ -33,7 +33,7 @@ class Zebra : public Mother{
 class Dolphin : public Mother{
 	public:
 		void get_value(){
-			cout<<"\tInformation Of Dolphin :"<<endl<<endl;
+			cout<<"\nInformation Of Dolphin :"<<endl<<endl;
 			
 	   		set_value();
 	   		
@@ -49,7 +49,7 @@ int main(){
 	
 	obj.get_value();
 	
-	obj.get_value();
+	obj1.get_value();
 	
 	return 0;
 }
